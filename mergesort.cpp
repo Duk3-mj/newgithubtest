@@ -17,7 +17,7 @@ void merge(int arr[],low,mid,high){
 }
 void merge_sort(int arr[],int low,int high){
   int mid;
-  if(low<high){
+  //if(low>high){
     mid=(high-low)/2;
     merge_sort(arr[],low,mid);
     merge_sort(arr[],mid+1,high);
